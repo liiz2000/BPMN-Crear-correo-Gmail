@@ -971,12 +971,11 @@
     @view: Bizagi.App.Views.HeaderView
 -->
 <script type="text/x-jquery-tmpl" id="HeaderViewTmpl">
-    <div class="large-3 columns biz-ex-logo">
-        <a class="button sidebar-button show-for-small" id="toggleMenuButton" href="#sidebar">
-            <img src="libs/img/biz-ex-icon-menu.png" />
-        </a>
-        <a href="list/" class="biz-ex-navigate biz-ex-logo-navigate">
-            <i class="biz-ex-logo-img"></i>
+    <div class="large-3  columns biz-ex-logo" >
+        <div class="alineacion" aling="left" >
+            <img src="libs/img/biz-ex-logo.png" width="50" height="50"/>
+        </div>  
+        <a href="list/" class="biz-ex-navigate biz-ex-logo-navigate">    
         </a>
     </div>
     <div class="large-9 columns biz-ex-top-nav">
@@ -1003,7 +1002,7 @@
                 </li>
                 {{if !Bizagi.AppModel.personalized}}
                 <li>
-                    <a href="http://www.bizagi.com/" target="_blank" class="biz-ex-bizagi">${Bizagi.Util.getResource('visitBizagi')}</a>
+                    <a href="http://www.bizagi.com/" target="_blank" class="biz-ex-bizagi">Tecnológico Pachuca </a>
                 </li>
                 {{/if}}
             </ul>
